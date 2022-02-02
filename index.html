@@ -12,14 +12,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="callout callout--primary">
-        <div class="grid grid--1x2">
-            <div class="callout__content">
-                <h2 class="callout__heading">Ready to Get Started?</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, earum nisi? Porro neque suscipit id explicabo saepe assumenda ipsam quisquam!</p>
-            </div>
-            <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
-        </div>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+            <span class="icon icon--white collapsible__chevron">
+                <img src="/images/icons/chevron.svg" width="40px" height="40px"/>
+            </span>
+        </header>
+        <div class="collapsible__content">Lorem ipsum dolor sit amet.</div>
     </div>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item 1</h2>
+            <span class="icon icon--white collapsible__chevron">
+                <img src="/images/icons/chevron.svg" width="40px" height="40px"/>
+            </span>
+        </header>
+        <div class="collapsible__content">Lorem ipsum dolor sit amet.</div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
