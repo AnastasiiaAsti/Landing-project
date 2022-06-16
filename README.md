@@ -1,6 +1,8 @@
 # Landing-project
 Responsive landing page for an imaginary company
 
+Link: https://anastasiiaasti.github.io/Landing-project/
+
 Technologies used: HTML, CSS, JavaScript
 
 
